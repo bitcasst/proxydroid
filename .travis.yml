@@ -17,7 +17,7 @@ script:
 deploy:
   provider: releases
   api_key: ${api_key}
-  file: "build/bitcasst/proxydroid/target/proxydroid-2.7.7.apk"
+  file: "/home/travis/build/bitcasst/proxydroid/target/proxydroid-2.7.7.apk"
   skip_cleanup: true
   on:
     all_branches: true
